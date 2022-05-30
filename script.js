@@ -4,7 +4,6 @@ let upperAZ = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", 
 let numArr = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
 let specChar = ["!", "#", "$", "%", "&", "(", ")", "*", "+", ".", "/", ":", ";", "<", "=", ">", "?", "@", "[", "\", \"]", "^", "_", "{", "|", "}", "~"]
 let selectedChar = [];
-let passLength = 0;
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
@@ -13,12 +12,14 @@ function writePassword() {
   var password = generatePassword() 
   
   function generatePassword() {
-//user makes length and character choises
+//user makes length and character choices
+    let passLength = 0;
     length = prompt("Enter a password length between 8 and 128.")
     if(length < 8 || length > 128 ||   isNaN(length)) {    
       alert("Password has to be a number between 8 and 128.");
       return
     } else {
+      passLength = length
       lowerAZConfirm = confirm("Do you want to use lowercase letters?") 
       if (lowerAZConfirm == true) {
         selectedChar = selectedChar.concat(lowerAZ)
@@ -36,6 +37,16 @@ function writePassword() {
       if (specCharConfirm == true) {
         selectedChar = selectedChar.concat(specChar)
     }
+
+    let passStr = "";
+
+    for(let i=0; i < passLength; i++) {
+      let randIndex = Math.floor(Math.random()*selectedChar.length)
+      passStr += selectedChar[randIndex]
+      console.log(randIndex)
+    }
+    
+    console.log(passStr)
     }
     
   var passwordText = document.querySelector("#password");
