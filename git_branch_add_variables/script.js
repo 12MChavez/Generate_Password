@@ -4,7 +4,6 @@ let upperAZ = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", 
 let numArr = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
 let specChar = ["!", "#", "$", "%", "&", "(", ")", "*", "+", ".", "/", ":", ";", "<", "=", ">", "?", "@", "[", "\", \"]", "^", "_", "{", "|", "}", "~"]
 
-
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
