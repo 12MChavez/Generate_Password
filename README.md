@@ -15,15 +15,17 @@ Project is created with:
 * CSS
 
 ## App
-
-![Screenshot](./Assets/images/Screenshot-home.JPG)
 * This is the opening view. 
+![Screenshot](./Assets/images/Screenshot-home.JPG)
+
+* The users will be asked to answer a series of questions.
 ![Screenshot](./Assets/images/Screenshot-input.JPG)
-* The users will be asked to answer a series of questions. 
+
+* This is an example of a generated password.  
 ![Screenshot](./Assets/images/Screenshot-password.JPG)
-* This is an example of a generated password. 
-![Screenshot](./Assets/images/Screenshot-error-msg.JPG)
+
 * If the user enters unexpected input, they will see this message. 
+![Screenshot](./Assets/images/Screenshot-error-msg.JPG)
 
 ## Contact me
 
