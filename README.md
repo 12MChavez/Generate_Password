@@ -14,9 +14,18 @@ Project is created with:
 * HTML
 * CSS
 
-## Deployed App
-![Screenshot](./images/schema.jpg)
-![Screenshot](./images/schema.jpg)
-![Screenshot](./images/schema.jpg)
-![Screenshot](./images/schema.jpg)
+## App
 
+![Screenshot](./Assets/images/Screenshot-home.JPG)
+* This is the opening view. 
+![Screenshot](./Assets/images/Screenshot-input.JPG)
+* The users will be asked to answer a series of questions. 
+![Screenshot](./Assets/images/Screenshot-password.JPG)
+* This is an example of a generated password. 
+![Screenshot](./Assets/images/Screenshot-error-msg.JPG)
+* If the user enters unexpected input, they will see this message. 
+
+## Contact me
+
+* [Email: mel.chavez.code@gmail.com](mailto:mel.chavez.code@gmail.com) 
+* [GitHub: 12MChavez](https://github.com/12MChavez)
